@@ -202,12 +202,22 @@ footer > p > a:hover {
   text-shadow: 0px 0px 4px aqua;
 }
 /* TO DO :Membuat Responsive */
-@media only screen and (max-width: 768px) {
-  #auto {
-    padding: 30px;
-    width: 80%;
+@media only screen and (max-width: 1070px) {
+  .container{
+    box-shadow: none;
+    margin: 0;
+    padding-top:60px ; 
   }
-  #auto img {
-    width: 50%;
+  .content{
+    padding: left 10px right 10px;
+  }
+  .profil{
+    padding-left: 0;
+  }
+  .tahunKuliah {
+    padding-right:10px ;
+}
+  .tahunSMK {
+    padding-right: 10px;
   }
 }
