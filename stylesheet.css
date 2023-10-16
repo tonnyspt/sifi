@@ -93,43 +93,40 @@ html {
   margin: 0px;
   text-align: center;
 }
+.content {
+  padding-left: 50px;
+  padding-rigth: 50px;
+  margin-left: 50px;
+  margin-right: 50px;
+}
 .profil > section > p {
   text-align: left;
-  padding-left: 50px;
   margin: 0px;
   font-weight: 600;
 }
 .profil > section > hr {
-  margin-left: 50px;
-  margin-right: 50px;
   background-color: black;
   height: 2px;
   margin-top: 0px;
 }
 .profil > section > .profile {
   text-align: justify;
-  padding-left: 50px;
-  padding-right: 50px;
   padding-bottom: 10px;
   margin: 0px;
   font-weight: 600;
 }
 .education > section > .pendidikan {
   text-align: left;
-  padding-left: 50px;
   margin: 0px;
   font-weight: 600;
 }
 .education > section > hr {
-  margin-left: 50px;
-  margin-right: 50px;
   background-color: black;
   height: 2px;
   margin-top: 0px;
 }
 .ijazah {
   margin-top: -15px;
-  padding-left: 50px;
 }
 .smk {
   display: flex;
@@ -156,10 +153,6 @@ html {
 .jurusanKuliah {
   margin-top: -15px;
   font-size: 14px;
-}
-.exp {
-  margin-left: 50px;
-  margin-right: 50px;
 }
 .exp > section > .pengalaman {
   font-weight: 600;
