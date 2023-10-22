@@ -1,0 +1,249 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap");
+html,
+header,
+body {
+  font-family: "Roboto";
+  padding: 0;
+  margin: 0;
+}
+html {
+  background-color: #bcbcbc;
+}
+.fContainer {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.wrapper {
+  align-items: center;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 60px;
+  display: flex;
+  justify-content: space-between;
+  background-color: black;
+
+}
+
+.name {
+  display: flex;
+  flex-direction: row;
+  padding-left: 10px;
+}
+
+.first {
+  color: white;
+  font-size: 26px;
+  font-weight: 900;
+}
+.last {
+  color: aqua;
+  font-size: 26px;
+  font-weight: 900;
+}
+.last:hover{
+  color: crimson;
+}
+.navigation {
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-right: 20px;
+}
+
+.navigation > li {
+  list-style-type: none;
+  padding: 8px;
+}
+
+.navigation > li > a {
+  color: white;
+  font-size: 20px;
+  text-decoration: none;
+}
+
+.navigation > li > a:hover {
+  color: aqua;
+}
+.container {
+  border-radius: 1%;
+  background-color: white;
+  margin-left: 220px;
+  margin-right: 220px;
+  margin-top: 90px;
+  margin-bottom: 25px;
+  box-shadow: 0px 1px 10px rgb(63, 26, 34);
+}
+.container > .nama {
+  padding-top: 10px;
+  font-size: 20px;
+  font-weight: 50;
+  text-align: center;
+  margin: 0px;
+}
+.data-diri {
+  font-weight: 400;
+  font-size: 15px;
+  padding-left: 80px;
+  padding-right: 80px;
+  margin: 0px;
+  text-align: center;
+}
+.profil > section > p {
+  text-align: left;
+  padding-left: 50px;
+  margin: 0px;
+  font-weight: 600;
+}
+.profil > section > hr {
+  margin-left: 50px;
+  margin-right: 50px;
+  background-color: black;
+  height: 2px;
+  margin-top: 0px;
+}
+.profil > section > .profile {
+  text-align: justify;
+  padding-left: 50px;
+  padding-right: 50px;
+  padding-bottom: 10px;
+  margin: 0px;
+  font-weight: 600;
+}
+.education > section > .pendidikan {
+  text-align: left;
+  padding-left: 50px;
+  margin: 0px;
+  font-weight: 600;
+}
+.education > section > hr {
+  margin-left: 50px;
+  margin-right: 50px;
+  background-color: black;
+  height: 2px;
+  margin-top: 0px;
+}
+.ijazah {
+  margin-top: -15px;
+  padding-left: 50px;
+}
+.smk {
+  display: flex;
+  justify-content: space-between;
+}
+.tahunSMK {
+  padding-right: 60px;
+  font-style: italic;
+}
+.jurusanSMK {
+  margin-top: -15px;
+  font-size: 14px;
+}
+.kuliah {
+  display: flex;
+  justify-content: space-between;
+  margin-top: -10px;
+}
+.tahunKuliah {
+  font-style: italic;
+  padding-right: 60px;
+  color: transparent 50%;
+}
+.jurusanKuliah {
+  margin-top: -15px;
+  font-size: 14px;
+}
+.exp {
+  margin-left: 50px;
+  margin-right: 50px;
+}
+.exp > section > .pengalaman {
+  font-weight: 600;
+  margin-bottom: 0px;
+}
+.exp > section > hr {
+  background-color: black;
+  height: 2px;
+  margin-top: 0px;
+}
+.exp > section > .PKL > .waktuPKL {
+  display: flex;
+  justify-content: space-between;
+}
+.FFUI {
+  font-size: 14px;
+  margin-top: -5px;
+}
+.waktuGemastik {
+  display: flex;
+  justify-content: space-between;
+  margin-top: -10px;
+}
+.detailGemastik {
+  margin-top: -5px;
+  font-size: 14px;
+}
+.skill > section > .skills {
+  text-align: left;
+  padding-left: 50px;
+  margin: 0px;
+  font-weight: 600;
+}
+.skill > section > hr {
+  margin-left: 50px;
+  margin-right: 50px;
+  background-color: black;
+  height: 2px;
+  margin-top: 0px;
+}
+.skill > section > ol{
+  margin-left: 50px;
+  margin-right: 50px;
+  margin-bottom: 5px;
+}
+.skill section li{
+  font-size: 18px;
+  padding-bottom: 5px;
+}
+footer {
+  background-color: #1e1923;
+  padding: 2px;
+  color: white;
+  width: 100%;
+  text-align: center;
+}
+footer > p > a {
+  text-decoration: none;
+  color: aqua;
+}
+footer > p > a:hover {
+  text-shadow: 0px 0px 4px aqua;
+}
+/* TO DO :Membuat Responsive */
+@media only screen and (max-width: 850px) {
+  .container{
+    padding-top: 0;
+    box-shadow: none;
+    
+    padding-top:60px ; 
+    margin-top: 10px;
+    margin-bottom: 0;
+    margin-right: 0;
+    margin-left: auto;
+  }
+  .fContainer{
+    position: relative;
+
+  }
+  .content{
+    padding: left 10px right 10px;
+  }
+  .profil{
+    padding-left: 0;
+  }
+}
